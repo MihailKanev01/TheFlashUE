@@ -1,52 +1,44 @@
+
 # The Flash UE
 
-An Unreal Engine project using a Blueprint-oriented project structure.
+An Unreal Engine 5.5 project exploring a Blueprint-oriented gameplay workflow.
 
 ## Overview
 
-This repository contains an Unreal Engine project configured for **Unreal Engine 5.5**, with the main project file:
+The repository contains an Unreal Engine project configured for Unreal Engine 5.5.
 
-```text
-TheFlashUE.uproject
-```
+The current project structure is documented around the files and directories present in the repository rather than claiming gameplay systems that are not verified in source.
 
-The repository includes the standard Unreal project directories for configuration, content and saved/editor data.
-
-## Technical focus
+## Technical Focus
 
 - Unreal Engine 5.5
 - Blueprint-oriented project structure
 - Unreal project configuration
-- Content organisation inside an Unreal project
+- Content organisation
+- Editor workflow
 
-No native C++ module is listed in the project file, so this repository is documented as an Unreal/Blueprint project rather than a C++ Unreal project.
+No native C++ module is currently listed in the project file, so this repository is documented as an Unreal/Blueprint project rather than an Unreal C++ project.
 
-## Open locally
+## Run Locally
 
-Requirements:
-
-- Unreal Engine 5.5
+**Requirement:** Unreal Engine 5.5
 
 Steps:
 
 1. Clone the repository.
-2. Open `TheFlashUE.uproject` with Unreal Engine 5.5.
-3. Allow Unreal Editor to generate any required local/editor files.
-4. Open the available project content and start the editor session.
+2. Open TheFlashUE.uproject with Unreal Engine 5.5.
+3. Allow Unreal Editor to generate required local/editor files.
+4. Open the available project content and run the editor session.
 
-## Repository structure
+## Project Structure
 
-```text
-Config/
-Content/
-Intermediate/
-Saved/
-TheFlashUE.uproject
-```
+    Config/
+    Content/
+    TheFlashUE.uproject
 
-## Project status
+## Project Status
 
-This repository is an Unreal Engine project in active development. The README intentionally focuses on the verified project structure rather than claiming gameplay features that are not documented in source files.
+An Unreal Engine learning and prototyping project focused on Blueprint-based workflows and project organisation.
 
 ## License
 
