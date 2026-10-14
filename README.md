@@ -1,45 +1,41 @@
-
 # The Flash UE
 
-An Unreal Engine 5.5 project exploring a Blueprint-oriented gameplay workflow.
+An **Unreal Engine 5.5** learning project exploring a Blueprint-oriented workflow and Unreal project organisation.
 
 ## Overview
 
-The repository contains an Unreal Engine project configured for Unreal Engine 5.5.
-
-The current project structure is documented around the files and directories present in the repository rather than claiming gameplay systems that are not verified in source.
+This repository contains an Unreal Engine project. The documentation intentionally describes the verified project structure rather than claiming gameplay systems that are not confirmed in the source.
 
 ## Technical Focus
 
 - Unreal Engine 5.5
-- Blueprint-oriented project structure
+- Blueprint-oriented project workflow
 - Unreal project configuration
 - Content organisation
-- Editor workflow
+- Editor-based iteration
 
-No native C++ module is currently listed in the project file, so this repository is documented as an Unreal/Blueprint project rather than an Unreal C++ project.
-
-## Run Locally
-
-**Requirement:** Unreal Engine 5.5
-
-Steps:
-
-1. Clone the repository.
-2. Open TheFlashUE.uproject with Unreal Engine 5.5.
-3. Allow Unreal Editor to generate required local/editor files.
-4. Open the available project content and run the editor session.
+The current project file does not list a native C++ module, so this repository is documented as an Unreal/Blueprint project rather than an Unreal C++ project.
 
 ## Project Structure
 
-    Config/
-    Content/
-    TheFlashUE.uproject
+```text
+Config/
+Content/
+TheFlashUE.uproject
+```
+
+## Run Locally
+
+**Requirement:** Unreal Engine 5.5.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MihailKanev01/TheFlashUE.git
+   ```
+2. Open `TheFlashUE.uproject` in Unreal Engine 5.5.
+3. Allow Unreal Editor to generate any required local/editor files.
+4. Explore the available content and run the editor session.
 
 ## Project Status
 
-An Unreal Engine learning and prototyping project focused on Blueprint-based workflows and project organisation.
-
-## License
-
-See [LICENSE](LICENSE).
+A learning and prototyping project focused on Blueprint-based workflows and Unreal project setup.
